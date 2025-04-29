@@ -1,8 +1,8 @@
 interface ProjectCardProps{
- name:String,
- techStack:String,
- date:String,
- description:String
+ name:string,
+ techStack:string,
+ date:string,
+ description:string
 }
 
 export default function ProjectCard(props:ProjectCardProps){
