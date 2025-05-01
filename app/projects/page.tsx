@@ -36,6 +36,20 @@ export default function Page() {
             date="Mar 2025 - Present" 
             description="A custom terminal shell featuring integrated GUI support, designed to enhance the user experience by combining graphical and command-line interfaces."
           />
+          
+          <ProjectCard 
+            name="Wallet" 
+            techStack="Typescript , Next.js , Prisma" 
+            date="Mar 2024 - April 2024" 
+            description="A custom terminal shell featuring integrated GUI support, designed to enhance the user experience by combining graphical and command-line interfaces."
+          />
+
+          <ProjectCard 
+            name="Medium Clone" 
+            techStack="Typescript , React , Node.js" 
+            date="May 2024 - June 2024" 
+            description="A custom terminal shell featuring integrated GUI support, designed to enhance the user experience by combining graphical and command-line interfaces."
+          />
 
           <ProjectCard 
             name="Chatify" 
@@ -50,6 +64,14 @@ export default function Page() {
             date="Aug 2024 - Oct 2024" 
             description="A machine learning model that classifies sections of medical research papers to improve readability and help users quickly understand key content."
           />
+
+          <ProjectCard 
+            name="Second Brain" 
+            techStack="React, Tailwind , Node.js" 
+            date="May 2025 - Present" 
+            description="A machine learning model that classifies sections of medical research papers to improve readability and help users quickly understand key content."
+          />
+
 
           <a
             href="https://github.com/Rakshit358"

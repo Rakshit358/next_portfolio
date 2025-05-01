@@ -32,11 +32,11 @@ export default function Page() {
 
       <div className="flex h-full justify-center items-center"> 
         <div className="flex flex-col items-start gap-4 w-full max-w-2xl px-4">
-          <h1 className="text-white font-semibold text-3xl">Coding Profiles</h1>
-           <ProfileCard imageUrl={CF} MaxRating={"1579"} description={"Specialist"} profileUrl="https://codeforces.com/profile/gg21"/>
-           <ProfileCard imageUrl={LC} MaxRating={"2084"} description={"Knight"} profileUrl="https://leetcode.com/u/gg_21/"/>
-           <ProfileCard imageUrl={AC} MaxRating={"964"} description={"Green"} profileUrl="https://atcoder.jp/users/gg21"/>
-           <ProfileCard imageUrl={CC} MaxRating={"1845"} description={"4 Star"} profileUrl="https://www.codechef.com/users/gg21"/>
+          <h1 className="text-white font-semibold text-xl">Coding Profiles</h1>
+           <ProfileCard imageUrl={CF} MaxRating={"1579"} description={"Codeforces"} profileUrl="https://codeforces.com/profile/gg21"/>
+           <ProfileCard imageUrl={LC} MaxRating={"2084"} description={"Leetcode"} profileUrl="https://leetcode.com/u/gg_21/"/>
+           <ProfileCard imageUrl={AC} MaxRating={"964"} description={"AtCoder"} profileUrl="https://atcoder.jp/users/gg21"/>
+           <ProfileCard imageUrl={CC} MaxRating={"1845"} description={"CodeChef"} profileUrl="https://www.codechef.com/users/gg21"/>
         </div>
       </div>
     </div>
